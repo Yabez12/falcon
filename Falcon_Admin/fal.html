@@ -1,0 +1,1082 @@
+<!-- Bootstrap container-fluid class -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <!-- Add Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+ <link  href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body{
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            scroll-snap-type: y mandatory;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            scroll-snap-align: start;
+        
+        }
+    </style>
+
+    <!-- Add Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
+</head>
+
+
+<style type="text/css">
+    
+a {
+  color:#fff;
+  -moz-transition: all 0.2s ;
+  -o-transition: all 0.2s ;
+  -webkit-transition: all 0.2s ;
+  transition: all 0.2s ;
+}
+
+a:hover {
+  color: #FFFF00;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn1{
+        margin-right: 100px;
+    }
+   .special-word { 
+  color: yellow; 
+} 
+
+  
+  .imgr {
+   width:470px;
+   height:470px;
+   position:relative;
+   animation-name: glide;
+    animation-duration: 1s;
+  animation-timing-function: linear;  
+}
+
+@-webkit-keyframes glide  {
+   from {
+      left:1px;
+      top:100px;
+   }
+   
+   to {
+      left:1px;
+      top:10px;
+    
+   }
+
+}
+
+.txtani {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    
+    animation-name: moveInRight;
+    animation-duration: 3s;
+  transition-delay: 50s;
+  animation-timing-function: steps(90, end);
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.pot {
+   bottom:15%;
+   position:absolute;
+   
+   -webkit-animation-name:run;
+   -webkit-animation-duration:2s;
+}
+
+@-webkit-keyframes run  {<!-- w  w    w.   d  e  m o   2 s   . c  o    m-->
+   0% {
+      left:0;
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   50% {
+      left:82%;
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   51% {
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   99% {
+      left:0;
+      -webkit-transform:rotateY(0deg);
+   }
+   
+   100% {
+      left:0;
+      -webkit-transform:rotateY(0deg);
+   }
+
+}
+.tot{
+animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.container
+   {
+      height: 560px;
+      width: 340px;
+      border-radius: 15px;
+      
+      background-color: #696969;
+      background-size: contain;
+      
+      background-size: 600px;
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      background-image: url("img/logo black.png");  
+   
+   }  
+  
+
+    .btn1{
+        margin-right: 50px;
+    }
+   .special-word { 
+  color: yellow; 
+}
+.str {
+   filter: contrast(100%) brightness(40%);
+} 
+div.scroll {
+        background-color: #fed9ff;
+        width: 600px;
+        height: 150px;
+        overflow: auto;
+        text-align: justify;
+        padding: 20px;
+      }
+      .btn1{
+        margin-right: 100px;
+    }
+.btn2{
+        margin-right: 125px;
+    }
+  .btn3{
+        margin-right: 115px;
+    }
+  .btn4{
+        margin-right: 105px;
+    }
+  .btn5{
+        margin-right: 90px;
+    }
+
+  .but{
+  background-color:#FFFF00;
+  border:10px;
+  width:100px;
+  height:30px;
+  color:black;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:14px;
+  margin:-90px 1050px;
+  cursor:pointer;
+  border-radius:45px;
+  }
+  .tut{
+  background-color: #484848;
+  border:50px;
+  width:300px;
+  height:25px;
+  color:white;
+  padding:10px;
+  text-align:left;
+  text-decoration:none;
+  display:inline-block;
+  font-size:12px;
+  margin:-90px 700px;
+  cursor:pointer;
+  border-radius:45px;
+  
+  }
+
+.cft
+{
+    height: 110vh;
+}
+
+.header {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 15px 15px 0px 0px;
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: -1px;
+}
+
+#rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: #696969;
+  
+}
+
+b:hover {
+  color: #FFFF00;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.container1
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/Cooler.png");;
+      filter: brightness(50%);     
+      background-position: right bottom;
+      background-repeat: no-repeat;
+         
+          
+   }
+   .container2
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/processre.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container3
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/cooling.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container4
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/motherbord.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container5
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/memory.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container6
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/storage.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container7
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/gpu.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container8
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/Layer 1.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+.container9
+   {
+      height: 520px;
+      width: 740px;
+      border-radius: 15px;
+      background-color: #696969;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/cabnate.png");;
+      filter: brightness(50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+        
+   }  
+  
+   .header1 {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 15px 15px 0px 0px;
+  width: 740px;
+  height: 20px;
+  position: absolute;
+  left: -1px;
+}
+.hideMe
+{
+    display: none;
+}
+
+.main-scroll-div{
+    width:90%;
+    heigth:50%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border:2px solid red;
+}
+
+.cover{
+    position:relative;
+    width:90%;
+    height:50%;
+}
+
+.cover::before{
+    postion:absolute;
+    content:"";
+    left:0;
+    top:0;
+    z-index:99;
+    height:100%;
+    width:150px;
+    background-image:linear-gradient(90deg,black,transparent);
+}
+
+.cover::before{
+    postion:absolute;
+    content:"";
+    right:0;
+    top:0;
+    z-index:99;
+    height:100%;
+    width:150px;
+    background-image:linear-gradient(-90deg,black,transparent);
+}
+
+.scroll-images{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-countent:left;
+    align-items:center;
+    overflow:auto;
+    position:relative;
+    scroll-behavior:smooth;
+}
+
+.child{
+    min-width:600px;
+    height:450px;
+    margin:1px 10px;
+    cursor:pointer;
+    border:1px solid white;
+    overflow:hidden;
+}
+
+.child-img{
+    width:100%;
+    height:100%;
+}
+</style>
+
+<script type="text/javascript">
+
+let hideEle = () => {
+        const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'block';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+        
+    }
+
+let hie=()=>{
+   const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+    e1[0].style.display='block';
+    e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+        ele[0].style.display='none';
+}
+
+let hie1=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='block';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+}
+
+let hie2=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='block';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+}
+
+let hie3=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='block';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+}
+
+let hie4=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='block';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+}
+
+let hie5=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='block';
+        e7[0].style.display='none';
+        e8[0].style.display='none';
+
+}
+
+let hie6=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='block';
+        e8[0].style.display='none';
+
+}
+
+let hie7=()=>{
+            const e8=document.getElementsByClassName('container9');
+        const e7=document.getElementsByClassName('container8');
+        const e6=document.getElementsByClassName('container7');
+        const e5=document.getElementsByClassName('container6');   
+       const e4=document.getElementsByClassName('container5');
+       const e3=document.getElementsByClassName('container4');
+        const e2=document.getElementsByClassName('container3');
+        const ele = document.getElementsByClassName('container2');
+        const e1=document.getElementsByClassName('container1');
+        ele[0].style.display = 'none';
+        e1[0].style.display='none';
+        e2[0].style.display='none';
+        e3[0].style.display='none';
+        e4[0].style.display='none';
+        e5[0].style.display='none';
+        e6[0].style.display='none';
+        e7[0].style.display='none';
+        e8[0].style.display='block';
+
+}
+
+</script>
+<style >
+
+</style>
+<body>
+    
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example wrapper" tabindex="0">
+<div class="container-fluid cft "  style="background-image: url('img/BGR.png');">
+    <section>
+
+  <div style="position:relative;top:40px">
+    <img class="center" src="img/LOGO.png" width="75" height="75" >
+   </div>
+
+    <div style = "position:relative;left:1170px;top:-50px;">
+    <img src="img/Like.png" width="15" height="15">
+    </div>
+
+    <div style = "position:relative;left:1200px;top:-70px;">
+    <img src="img/Cart.png" width="15" height="15">
+    </div>
+
+    <div style = "position:relative;left:1000px;top:-90px;">
+    <a href="url"style="color:silver">LOGIN/</a>
+    <a href="url"style="color:silver">REGISTER</a>
+    </div>
+
+    <div style = "position:relative;left:300px;top:30px;">
+    <button class="btn1" type="button"style = "font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:silver;" >SHOP</button>
+    <button class="btn1" type="button" style = "font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:silver;">ACCESSORIES</button>
+    <button class="btn1" type="button" style = "font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:silver;">BRAND STORE</button>
+    <button class="btn1" type="button" style = "font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:silver;">ABOUT</button>
+    <button type="button" style = "font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:silver;">CONTACT</button>
+    </div>
+
+    <div style="position:relative;left:450px;top:10px;">
+    <img class="imgr" src="img/PC ANIMATION.gif" width="470" height="470">
+    </div>
+
+    <div style="position:relative;left:190px;top:-300px;">
+    <p class="txtani" style="font-family:Agency FB; color:white; font-size: 50px;">DESIGNED FOR</P>
+    </div>
+
+    <div style="position:relative;left:190px;top:-340px;">
+    <p class="txtani" style="font-family:Agency FB; color:yellow; font-size: 50px;">PERFORMANCE</P>
+    </div>
+
+    <div style="position:relative;left:950px;top:-520px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 18px;"> Every system is <span class='special-word'> Hand Crafted </span> by our</p>
+    </div>
+
+    <div style="position:relative;left:950px;top:-540px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 18px;">passionate team, to a high level of detail and perfection.</p>
+    </div>
+
+    <div style="position:relative;left:950px;top:-560px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 18px;">and perfection.</p>
+    </div>
+
+    <div style="position:relative;left:950px;top:-540px;">
+    <p style="font-family:Agency FB; color:yellow; font-size: 18px;">EXPLORE SYSTEMS v</p>
+    </div>
+
+    <div style="position:relative;left:50px;top:-380px">
+    <img src="img/Falcon gaming2.png" width="100" height="25">
+    </div>
+
+    <div style="position:relative;left:1100px;top:-420px">
+    <p style="font-family:Agency FB;color:silver;font-size:15px;">POWERD BY |</p>
+    </div>
+
+    <div style="position:relative;left:1180px;top:-460px">
+    <img src="img/AMD1.png" width="50" height="35">
+    </div>
+</div></section>
+
+
+
+<div class="container-fluid cft" style="background-image: url('img/BG_.png');">
+  <section>
+  
+  <div style="position:relative;left:450px;top:-10px;">
+    
+   <img src="img/logo black.png" width="750px">
+</div>
+
+  <div style="position:relative;left:600px;top:-100px;">
+    <img class="pot" src="img/Falcon Bird.png" width="500px" height="400px">
+    </div>
+    
+    <div class="pot">
+    <div style="position:relative;left:750px;top:600px;">
+    <img class="tot" src="img/Feather2.png" width="300px" height="80px">
+    </div>
+
+    <div style="position:relative;left:500px;top:900px;">
+    <img class="tot"src="img/Feather 1.png" width="150px" height="100px">
+    </div>
+
+    <div style="position:relative;left:850px;top:880px;">
+    <img class="tot" src="img/Feather 3.png" width="300px" height="250px">
+    </div>
+    </div>
+
+
+    <div class="container"  style="position:relative;left:-400px;top:-600px;"  >
+   <font color="white" family="Agency FB" class="a">
+   <div class="header">
+   <tr><br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;BROWSE CATLOG</tr><br><br>
+      <tr>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text" id="rcorners1" placeholder="&ensp;&ensp;Search.." name="search" ></tr>
+    </div><br><br><br><br><br><br><br>  
+   <tr style="cursor: pointer;"><a>&ensp;&ensp;&ensp;<img src="img/Cooler.png" width="25px">&ensp;<button onclick="hie()"  style="background-color:transparent;border-color:transparent;">CUSTOM COOLING SYSTEM </button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/processre.png" width="25px">&ensp;<button onclick="hideEle()"  style="background-color:transparent;border-color:transparent;">PROCESSOR</button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/cooling.png" width="25px">&ensp;<button onclick="hie1()" style="background-color:transparent;border-color:transparent;">COOLING SYSTEM</button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/motherbord.png" width="25px">&ensp;<button onclick="hie2()" style="background-color:transparent;border-color:transparent;">MOTHERBORD</button></tr><br><br></a>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/memory.png" width="25px">&ensp;<button onclick="hie3()" style="background-color:transparent;border-color:transparent;">MEMORY</button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/storage.png" width="15px">&ensp;<button onclick="hie4()" style="background-color:transparent;border-color:transparent;">STORAGE</button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/gpu.png" width="25px">&ensp;<button onclick="hie5()" style="background-color:transparent;border-color:transparent;">GEAPHICS CARD</button></a></tr><br><br>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/Layer 1.png" width="25px">&ensp;<button onclick="hie6()" style="background-color:transparent;border-color:transparent;">POWER SUPPLY</button></tr><br><br></a>
+   <tr><a>&ensp;&ensp;&ensp;<img src="img/cabnate.png" width="15px">&ensp;<button onclick="hie7()" style="background-color:transparent;border-color:transparent;">CABNATE</button></a></tr><br><br>
+   </font>
+    </div>
+
+<div class="container1 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;CUSTOM COLLING SYSTEM</div>
+  </div>
+</font>
+<div class="container2 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;PROCESSOR</div>
+  </div>
+</font>
+<div class="container3 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;COLLING SYSTEM</div>
+  </div>
+</font>
+<div class="container4 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;MOTHERBORD</div>
+  </div>
+</font>
+<div class="container5 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;MEMORY</div>
+  </div>
+</font>
+<div class="container6 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;STORAGE</div>
+  </div>
+</font>
+<div class="container7 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;GRAPHICS CARD</div>
+  </div>
+</font>
+<div class="container8 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;POWER SUPPLY</div>
+  </div>
+</font>
+<div class="container9 hideMe" style="position:relative;left:500px;top:-1100px;">
+      <div class="header1">
+        <font color="white" family="Agency FB" size="3px">&ensp;CABNATE</div>
+  </div>
+</font>
+
+</div>
+</section>
+
+<div class="container-fluid cft" style="background-image: url('img/BG2.png');">
+  <section>
+
+  <div style = "position:relative;left:420px;top:90px;">
+    <b><button class="btn1" type="button"style = "background-color:transparent;border-color:transparent;color:silver;" >BEST SELLER</b></button>
+    <b><button class="btn1" type="button" style = "background-color:transparent;border-color:transparent;color:silver;">FEATURED</b></button>
+    <b><button class="btn1" type="button" style = "background-color:transparent;border-color:transparent;color:silver;">SALES</b></button>
+    </div>
+    
+    <div style = "position:relative;left:600px;top:-10px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 25px;">FEATURED PRODUCTS</p>
+    </div>
+    
+    <div style = "position:relative;left:100px;top:120px;">
+    <img src="img/ZOTAC GPU 2.png" width="250px" height="170px">
+    </div>
+    
+    <div style = "position:relative;left:340px;top:60px;">
+    <img src="img/Layer 45.png" width="20" height="20">
+    </div>
+    
+    <div style = "position:relative;left:490px;top:-80px;">
+    <img src="img/ZOTAC GPU.png" width="286px" height="172px">
+    </div>
+    
+    <div style = "position:relative;left:760px;top:-130px;">
+    <img src="img/Layer 45.png" width="20" height="20">
+    </div>
+    
+    <div style = "position:relative;left:850px;top:-260px;">
+    <img src="img/NZXT.png" width="400px" height="180px">
+    </div>
+    
+    <div style = "position:relative;left:1250px;top:-340px;">
+    <img src="img/Layer 45.png" width="20" height="20">
+    </div>
+    
+    <div style = "position:relative;left:150px;top:-250px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">ZOTAC GAMING GEFORCE RTX 3050</p>
+    </div>
+    
+    <div style = "position:relative;left:180px;top:-250px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">TWIN EDGE OC</p>
+    </div>
+    
+    <div style = "position:relative;left:560px;top:-300px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">ZOTAC GAMING GEFORCE RTX 3060 AMP</p>
+    </div>
+    
+    <div style = "position:relative;left:600px;top:-305px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">WHITE EDITION</p>
+    </div>
+    
+    <div style = "position:relative;left:970px;top:-350px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">NZXT KRAKEN X53 240MM AIO LIQUID</p>
+    </div>
+    
+    <div style = "position:relative;left:995px;top:-355px;">
+    <p style="font-family:Agency FB; color:silver; font-size: 10px;">COOLER WITH RGB</p>
+    </div>
+    
+    <div style = "position:relative;left:160px;top:-300px;">
+    <p style="font-family:Agency FB; color:yellow; font-size: 25px;">&#8377;38,890</p>
+    </div>
+    
+    <div style = "position:relative;left:240px;top:-345px;">
+    <img src="img/Layer 46.png" width="25px" height="25px">
+    </div>
+    
+    <div style = "position:relative;left:590px;top:-370px;">
+    <p style="font-family:Agency FB; color:yellow; font-size: 25px;">&#8377;84,990</p>
+    </div>
+    
+    <div style = "position:relative;left:665px;top:-415px;">
+    <img src="img/Layer 46.png" width="25px" height="25px">
+    </div>
+    
+    <div style = "position:relative;left:1000px;top:-440px;">
+    <p style="font-family:Agency FB; color:yellow; font-size: 25px;">&#8377;15,700</p>
+    </div>
+    
+    <div style = "position:relative;left:1070px;top:-480px;">
+    <img src="img/Layer 46.png" width="25px" height="25px">
+    </div>
+    
+    <div style = "position:relative;left:400px;top:-400px;">
+    <img class="str" src="img/Razer.png" width="60px" height="10px">
+    </div>
+    
+    <div style = "position:relative;left:480px;top:-420px;">
+    <img class="str" src="img/NZXT1.png" width="45px" height="10px">
+    </div>
+    
+    <div style = "position:relative;left:550px;top:-435px;">
+    <img class="str" src="img/HYPER X.png" width="50px" height="20px">
+    </div>
+    
+    <div style = "position:relative;left:620px;top:-463px;">
+    <img class="str" src="img/AMD.png" width="45px" height="10px">
+    </div>
+    
+    <div style = "position:relative;left:680px;top:-485px;">
+    <img class="str" src="img/INTEL.png" width="45px" height="10px">
+    </div>
+    
+    <div style = "position:relative;left:740px;top:-505px;">
+    <img class="str" src="img/ASUS.png" width="45px" height="10px">
+    </div>
+    
+    <div style = "position:relative;left:800px;top:-530px;">
+    <img class="str" src="img/CORSAIR.png" width="50px" height="25px">
+    </div>
+    
+    <div style = "position:relative;left:880px;top:-550px;">
+    <img class="str" src="img/LOGITECH.png" width="50px" height="20px">
+    </div>
+     
+</div>
+</section>
+
+<div class="container-fluid cft" style="background-color: black;">
+  <section>
+
+  <div style="position:relative;left:800px;top:160px;">
+    <p style="font-size:11px;color:white">CONTACT US</p>
+    </div>
+    
+    <div style="position:relative;left:80px;top:130px;">
+    <b><button class="btn1" type="button"style = "background-color:transparent;font-size:11px;border-color:transparent;color:white;" >PRODUCTS</b></button>
+    <b><button class="btn1" type="button"style = "background-color:transparent;font-size:11px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&emsp;&emsp;COMPANY</b></button>
+    <b><button class="btn1" type="button"style = "background-color:transparent;font-size:11px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&emsp;&emsp;NEED  HELP?</b></button>
+    </div>
+
+    <div style="position:relative;left:800px;top:155px;">
+    <img src="img/Call.png" height="15px" width="15px">
+    </div>
+
+    <div style="position:relative;left:820px;top:140px;">
+    <p style ="font-size:11px;color:white">+91 865700 8001</P>
+    </div>
+
+    <div style="position:relative;left:930px;top:110px;">
+    <img src="img/Location.png" height="15px" width="15px">
+    </div>
+
+    <div style="position:relative;left:950px;top:95px;">
+    <p style ="font-size:11px;color:white">MUMBAI,MAHARASHTRA,420420</P>
+    </div>
+
+    <div style="position:relative;left:800px;top:160px;">
+    <p style ="font-size:11px;color:white">GET THE LATEST NEWS, OFFERS AND EXCLUSIVE GIVEAWAYS!</P>
+    </div>
+
+    <div style="position:relative;left:80px;top:40px;">
+    <b><button class="btn2" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >Laptops</b></button>
+    <b><button class="btn2" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&emsp;About</b></button>
+    <b><button class="btn2" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&ensp;Support</b></button>
+    </div>
+
+    <div style="position:relative;left:80px;top:60px;">
+    <b><button class="btn3" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >Desktops</b></button>
+    <button class="btn3" type="button" style="background-color:transparent;font-size:13px;border-color: transparent;color: white;"><b>&emsp;&emsp;&emsp;&emsp;Contact</b></button>
+    </div>
+
+    <div style="position:relative;left:80px;top:80px;">
+    <b><button class="btn4" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >Workstation</b></button>
+    <b><button class="btn4" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&emsp;Corporate</b></button>
+    <b><button class="btn4" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&ensp;Warranty</b></button>
+    </div>
+
+    <div style="position:relative;left:80px;top:100px;">
+    <b><button class="btn5" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >Ready To Ship</b></button>
+    <b><button class="btn3" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&emsp;Careers</b></button>
+    <b><button class="btn4" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >&emsp;&emsp;&emsp;&ensp;FAQ</b></button>
+    </div>
+
+    <div style="position:relative;left:330px;top:130px;">
+    <b><button class="btn5" type="button"style = "background-color:transparent;font-size:13px;border-color:transparent;color:white;" >Review</b></button>
+    </div>
+
+    <div style="position:relative;left:30px;top:320px;">
+    <img src="img/Falcon.png" width="150" height="35">
+    </div>
+
+    <div style="position:relative;left:810px;top:280px;">
+    <img src="img/whatsapp-removebg-preview.png" width="50px" height="50px">
+    </div>
+
+    <div style="position:relative;left:890px;top:230px;">
+    <img src="img/youtube-removebg-preview.png" width="50px" height="50px">
+    </div>
+
+    <div style="position:relative;left:960px;top:180px;">
+    <img src="img/facebook-removebg-preview.png" width="50px" height="50px">
+    </div>
+
+    <div style="position:relative;left:1010px;top:120px;">
+    <img src="img/i-removebg-preview.png" width="70px" height="70px">
+    </div>
+    
+    <div style="position:relative;left:100px;top:-300px;">
+        <input class="tut" type="text" value="E-mail">
+   </div>
+
+   <div style="position:relative;left:100px;top:-310px;">
+    <p class="but">Subscribe ></p>
+   </div>
+
+</div>
+</section>
+</div>
+</body>
+</html>
