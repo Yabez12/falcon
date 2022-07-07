@@ -1,0 +1,244 @@
+body{
+			overflow-x: hidden;
+			overflow-y: hidden;
+			height: auto;
+			width: auto;
+		}
+
+      
+
+		input[type=checkbox]:checked + span {
+    color: yellow;
+}
+	.container
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/lg.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   .container1
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/amt.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   .container2
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/HYPER.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   .container3
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/intell.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   .container4
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/corsairr.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   .container5
+   {
+      height: 120px;
+      width: 180px;
+      border-radius: 15px;
+      background-color: yellow;
+      background-size: contain;
+      background-size: 100px;
+      background-image: url("img/razerr.png");;
+      background-position: center;
+      background-repeat: no-repeat;
+        
+   }
+
+   
+
+   .b:hover{
+   	background-color: white;
+   }
+   
+   .sec{
+   	width: 100%;
+   	height: 100vh;
+   }
+
+   .sec1{
+   	width: 100%;
+   	height: 70vh;
+   }
+
+   .container6
+   {
+   	height: 300px;
+   	width: 200px;
+   	border-radius: 15px;
+    background-color: #4C4E52;
+   }
+
+   .tut{
+  background-color: #484848;
+  border:50px;
+  width:300px;
+  height:20px;
+  color:white;
+  padding:10px;
+  text-align:left;
+  text-decoration:none;
+  display:inline-block;
+  font-size:12px;
+  margin:-90px 700px;
+  cursor:pointer;
+  border-radius:45px;
+  
+  }
+  .ex1{
+  	width: auto;
+   	height: 100vh;
+   	overflow-y: scroll;
+   	overflow-x: hidden;
+   	scroll-snap-type: y mandatory;
+  }
+   section1{
+            width: auto;
+            height: 70vh;
+            display: flex;
+            scroll-snap-align: start;
+           }
+     section{
+     	width: auto;
+     	height: 100vh;
+        display: flex;
+        scroll-snap-align: start;
+     }
+      input.largerCheckbox {
+      		accent-color: yellow;
+      		width: 10px;
+            height: 10px;
+            }
+      
+        .checkbox label {
+    color: yellow !important;
+}
+.myButton{
+	font-family:Agency FB;
+	font-size: 12px;
+	background-color:white;
+	border-color:transparent;
+	color:black;
+	width: 38px;
+	height: 20px;
+	border-radius: 5px;
+}
+.myButton1{
+	font-family:Agency FB;
+	font-size: 12px;
+	background-color:white;
+	border-color:transparent;
+	color:black;
+	width: 25px;
+	height: 20px;
+	border-radius: 5px;
+}
+.btn{
+	font-family:Agency FB;font-size:15px;background-color:yellow;border-color:yellow; border-radius: 45px;width: 100px;height: 30px;color:black;
+}
+.btn:hover{
+	background-color: white;border-color: white;
+}
+.btn1{
+	font-family:Agency FB;font-size: 8px;background-color:transparent;border-color:transparent;color:silver;
+}
+.btn1:hover{
+	color: yellow;
+}
+.btn2{
+	font-family:Agency FB;font-size: 15px;background-color:transparent;border-color:transparent;color:white;
+}
+.btn2:hover{
+	color: yellow;
+}
+.myButton:hover{
+    background-color: yellow;
+    }
+   .myButton1:hover{
+    background-color: yellow;
+    }
+
+   input.largerCheckbox {
+      		accent-color: yellow;
+      		width: 10px;
+            height: 10px;
+            }
+      
+        .checkbox label {
+    color: yellow !important;
+}
+.myButton{
+	font-family:Agency FB;
+	font-size: 12px;
+	background-color:white;
+	border-color:transparent;
+	color:black;
+	width: 38px;
+	height: 20px;
+	border-radius: 5px;
+}
+.myButton1{
+	font-family:Agency FB;
+	font-size: 12px;
+	background-color:white;
+	border-color:transparent;
+	color:black;
+	width: 25px;
+	height: 20px;
+	border-radius: 5px;
+}
+.myButton:hover{
+    background-color: yellow;
+    }
+   .myButton1:hover{
+    background-color: yellow;
+    }
