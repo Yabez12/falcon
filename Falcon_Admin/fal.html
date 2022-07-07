@@ -1,13 +1,58 @@
 <!-- Bootstrap container-fluid class -->
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title></title>
+<html lang="en">
+<head>    <!-- Add Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+ <link  href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body{
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            scroll-snap-type: y mandatory;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            scroll-snap-align: start;
+        
+        }
+        
+    </style>
+
     <!-- Add Bootstrap Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+
+<script type="text/javascript" src="src.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FALCON GAMING</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
@@ -45,12 +90,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
 
-</head>
-
-
-<style type="text/css">
-    
-a {
+  <style>
+  a {
   color:#fff;
   -moz-transition: all 0.2s ;
   -o-transition: all 0.2s ;
@@ -66,6 +107,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
+
   .center {
   display: block;
   margin-left: auto;
@@ -85,7 +127,7 @@ a:hover {
    position:relative;
    animation-name: glide;
     animation-duration: 1s;
-  animation-timing-function: linear;  
+    animation-timing-function: linear;  
 }
 
 @-webkit-keyframes glide  {
@@ -97,7 +139,7 @@ a:hover {
    to {
       left:1px;
       top:10px;
-    
+      
    }
 
 }
@@ -109,8 +151,8 @@ a:hover {
     
     animation-name: moveInRight;
     animation-duration: 3s;
-  transition-delay: 50s;
-  animation-timing-function: steps(90, end);
+    transition-delay: 50s;
+    animation-timing-function: steps(90, end);
 }
 @keyframes moveInRight {
     0% {
@@ -127,7 +169,7 @@ a:hover {
         transform: translate(0);
     }
 }
-.pot {
+    .pot {
    bottom:15%;
    
    
@@ -135,7 +177,7 @@ a:hover {
    -webkit-animation-duration:2s;
 }
 
-@-webkit-keyframes run  {<!-- w  w    w.   d  e  m o   2 s   . c  o    m-->
+    @-webkit-keyframes run  {<!-- w  w    w.   d  e  m o   2 s   . c  o    m-->
    0% {
       left:0;
       -webkit-transform:rotateY(0deg);
@@ -493,11 +535,10 @@ b:hover {
     width:100%;
     height:100%;
 }
-</style>
 
-<script type="text/javascript">
-
-let hideEle = () => {
+  </style>
+   <script type="text/javascript">
+       let hideEle = () => {
         const e8=document.getElementsByClassName('container9');
         const e7=document.getElementsByClassName('container8');
         const e6=document.getElementsByClassName('container7');
@@ -695,10 +736,10 @@ let hie7=()=>{
 
 }
 
-</script>
-<style >
 
-</style>
+   </script>
+</head>
+
 <body>
     
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example wrapper" tabindex="0">
@@ -987,7 +1028,7 @@ let hie7=()=>{
 </div>
 </section>
 
-<div class="container-fluid cft" style="background-color: black;">
+<div class="container-fluid cft" style="background-image: url('img/bg_4.jpg');">
   <section>
 
   <div style="position:relative;left:800px;top:160px;">
